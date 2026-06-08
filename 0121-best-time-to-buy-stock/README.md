@@ -1,0 +1,1 @@
+We must buy before sell. So we go over the days, calculate the profit, if it's better than the best day, then we update the best day with the new value. If price is lower than the lowest_buy, then we update the lowest buy. After that return the answer
