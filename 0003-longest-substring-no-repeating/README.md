@@ -1,0 +1,3 @@
+In this problem we need to find the longest substring with no repeating characters. Key idea is to use sliding window: technique where you expand or shrink your window based on conditions. We start with a small window and expand it, if we saw a repeating character then we shrink the window from the left (by deleting elements at position `l`and shifting the `l`) until we get unique characters, and we store the best length after checking the window. 
+
+One thing to keep in mind is that we could be given an empty string, that's why we use a loop, to prevent going forward in case of empty string, and to not add elements to set if the string is empty.
