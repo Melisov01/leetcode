@@ -13,9 +13,6 @@ class Solution:
         
         return best
 
-
-        
-
 sol = Solution()
 
 s = "zxyzxyz"
