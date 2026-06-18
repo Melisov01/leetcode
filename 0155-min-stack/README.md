@@ -1,0 +1,1 @@
+Keep a separate stack that tracks min values. If the new value is less that the old one we push it there, otherwise keep pushing the current min value
