@@ -1,0 +1,1 @@
+Sort the cars by descending order, calculate the time needed for a car to reach the target, store the value in stack, if the time of a new car is shorter (means it's faster) than of the previous one, then it forms a fleet since faster cars can't take over and we pop it from the stack because previous car represents a fleet. 
